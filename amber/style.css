@@ -1,7 +1,18 @@
-h1
+h1, h2
 {
 	margin: auto;
 	width: 800;
 	text-align: center;
+	font-family: 'Glass Antiqua', cursive;	
+}
+
+h1
+{
 	font-size: 70;
+}
+
+h2
+{
+	font-size: 30;
+	background-color: #f5e0db;
 }

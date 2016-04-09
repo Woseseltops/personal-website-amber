@@ -1,7 +1,6 @@
 h1, h2
 {
 	margin: auto;
-	width: 800;
 	text-align: center;
 	font-family: 'Glass Antiqua', cursive;	
 }
@@ -9,10 +8,58 @@ h1, h2
 h1
 {
 	font-size: 70;
+	width: 345px;
 }
 
 h2
 {
 	font-size: 30;
-	background-color: #f5e0db;
+    background: linear-gradient(to right,#fcdccc,#eae5f3);
+   	width: 800;
+    margin-bottom: 70px;
+    color: rgba(0,0,0,0.6);
+}
+
+p
+{
+	width: 790px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 18px;	
+    text-align: justify;
+	font-family: 'Muli', sans-serif;    
+}
+
+.main_title_foliage
+{
+	width:50%;
+}
+
+.title_part
+{
+	float: left;
+}
+
+#main_title
+{
+	width: 670px;
+	margin: auto;
+}
+
+#title_foliage_left
+{
+	margin-right:-240px;
+}
+
+#title_foliage_right
+{
+    left: -50px;
+    position: relative;	
+}
+
+#portrait
+{
+	width: 40%;
+    float: right;
+    margin-left: 28px;
 }

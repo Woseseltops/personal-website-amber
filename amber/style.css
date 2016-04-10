@@ -14,7 +14,6 @@ h1
 h2
 {
 	font-size: 30;
-    background: linear-gradient(to right,#fcdccc,#eae5f3);
    	width: 800;
     margin-bottom: 70px;
     color: rgba(0,0,0,0.6);
@@ -30,6 +29,33 @@ p
 	font-family: 'Muli', sans-serif;    
 }
 
+.section
+{
+	text-align: center;
+}
+
+.header_background
+{
+    background: linear-gradient(to right,#fcdccc,#eae5f3);
+   	width: 800;
+   	height: 20px;
+   	margin: auto;
+    margin-bottom: -35px;
+}
+
+.header_above_landscape_slider
+{
+	margin-bottom: 0px;
+	margin-top: 35px;
+}
+
+.header_background_above_landscape_slider
+{
+	z-index: -1;
+	position: relative;
+    top: 35px;	
+}
+
 .main_title_foliage
 {
 	width:50%;
@@ -40,20 +66,26 @@ p
 	float: left;
 }
 
+.art
+{
+    width: 800px;
+    margin: auto;	
+}
+
 #main_title
 {
-	width: 670px;
+	width: 740px;
 	margin: auto;
 }
 
 #title_foliage_left
 {
-	margin-right:-240px;
+	margin-right:-175px;
 }
 
 #title_foliage_right
 {
-    left: -50px;
+    left: -110px;
     position: relative;	
 }
 
@@ -62,4 +94,19 @@ p
 	width: 40%;
     float: right;
     margin-left: 28px;
+}
+
+#email_paragraph
+{
+	text-align: center;
+}
+
+.fp-controlArrow.fp-prev
+{
+	border-color: transparent #E4E1Df transparent transparent;
+}
+
+.fp-controlArrow.fp-next
+{
+	border-color: transparent transparent transparent #E4E1DF;
 }

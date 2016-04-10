@@ -72,6 +72,20 @@ p
     margin: auto;	
 }
 
+.right_header_foliage
+{
+    width: 85px;
+    margin-top: -116px;
+    margin-left: 781px;
+}
+
+.left_header_foliage
+{
+    width: 85px;
+    margin-top: -114px;
+    margin-right: 805px;
+}
+
 #main_title
 {
 	width: 740px;
@@ -109,4 +123,9 @@ p
 .fp-controlArrow.fp-next
 {
 	border-color: transparent transparent transparent #E4E1DF;
+}
+
+.start_invisible
+{
+	opacity: 0;
 }

@@ -34,6 +34,16 @@ p
 	text-align: center;
 }
 
+.triangle
+{
+    position:fixed; 
+    width: 4%;
+    left: 92%;
+    top: 89%;
+    cursor: pointer;
+    z-index: 10;
+}
+
 .header_background
 {
     background: linear-gradient(to right,#fcdccc,#eae5f3);

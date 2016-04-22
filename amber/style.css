@@ -55,8 +55,8 @@ p
 
 .header_above_landscape_slider
 {
-	margin-bottom: 0px;
-	margin-top: 35px;
+    margin-bottom: 0px;
+    margin-top: 35px;
 }
 
 .header_background_above_landscape_slider
@@ -66,9 +66,15 @@ p
     top: 35px;	
 }
 
+.foliage_above_landscape_slider
+{
+    position: relative;
+    top: 70px;    
+}
+
 .main_title_foliage
 {
-	width:50%;
+	width:100%;
 }
 
 .title_part
@@ -80,6 +86,16 @@ p
 {
     width: 800px;
     margin: auto;	
+}
+
+.limit_height
+{
+    height: 80%;
+}
+
+.limit_width
+{
+    widt: 80%;
 }
 
 .right_header_foliage
@@ -98,18 +114,18 @@ p
 
 #main_title
 {
-	width: 740px;
+	width: 890px;
 	margin: auto;
 }
 
 #title_foliage_left
 {
-	margin-right:-175px;
+	margin-right:-70px;
 }
 
 #title_foliage_right
 {
-    left: -110px;
+    left: -30px;
     position: relative;	
 }
 
